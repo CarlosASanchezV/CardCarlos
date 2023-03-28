@@ -1,0 +1,62 @@
+/* Primera forma de mandar poner estilos */
+/* Etiqueta */
+/*body {
+    background-color: coral;
+}*/
+
+
+/* Segunda forma de dar estilo */
+/* Clase */
+
+/*.links {
+    background-color: blue;
+    color: white;
+}
+
+a {
+    background-color: aqua;
+    font-size: 50;
+    font-weight: 700;
+}
+
+/* Tercera forma de dar estlo */
+/* ID */
+
+/*#sendButton {
+    background-color: red;
+    color: white;
+}
+*/
+
+h1 {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    margin: 250px;
+    padding-left: 50px;
+    
+    font-size: 80px;
+}
+
+
+.links {
+    background-color: bisque;
+    color: white;
+}
+
+a {
+    padding: 15px;
+}
+
+.Instagram {
+    background-color: red;
+}
+.Facebook {
+    background-color: blue;
+}
+.Linkedin{
+    background-color: aqua;
+}
+.Twitter {
+    background-color: aquamarine;
+}
