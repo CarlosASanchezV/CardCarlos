@@ -11,7 +11,7 @@ section {
     width: 100%;
     margin: 0 auto;
     top: 130px; /* este estilo se activa con una posicion relativa, indicanto un margen superior*/
-    border: 2px solid white; /* agrega un corde de 2px color blanco en forma de linea */
+    /*border: 2px solid white; /* agrega un corde de 2px color blanco en forma de linea */
 }
 
 .avatar {
@@ -26,7 +26,14 @@ section {
 .name {
     text-align: center; /* alinea el texto de forma centrada */ 
     font-size: 45px;/* tamaño de la fuente */ 
-    color: rgb(91, 91, 91);
+    color: rgb(105, 34, 34);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.career {
+    text-align: center; /* alinea el texto de forma centrada */ 
+    font-size: 35px;/* tamaño de la fuente */ 
+    color: rgb(48, 78, 249);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
