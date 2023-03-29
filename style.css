@@ -15,8 +15,8 @@ section {
 }
 
 .avatar {
-    width: 150px; /* indica el ancho de un elemento */
-    height: 150px; /* indica el alto */ 
+    width: 200px; /* indica el ancho de un elemento */
+    height: 200px; /* indica el alto */ 
     border-radius: 50%; /* crea un borde redondo indicado en % , para lograr un circulo */
     display: block; /* Le dice a cada elemento como debe comportarse como bloque o lineal*/
     margin: 0 auto; 
@@ -35,6 +35,17 @@ section {
     font-size: 35px;/* tamaño de la fuente */ 
     color: rgb(48, 78, 249);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.description {
+    text-align: center; /* alinea el texto de forma centrada */ 
+    font-size: 20px;/* tamaño de la fuente */ 
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid rgb(227, 223, 223);
+    margin: 0 auto;
 }
 
 .links {
@@ -67,6 +78,8 @@ a {
 
 .facebook {
     background-color: rgb(142, 164, 254);
+    position: relative;
+    bottom: 1px;
 }
 .facebook:hover {
     background-color: rgb(38, 78, 237);
@@ -76,8 +89,12 @@ a {
 
 .linkedin {
     background-color: rgb(99, 123, 220);
+    position: relative;
+    bottom: 1px;
 }
 
 .twitter {
     background-color: rgb(48, 200, 255);
+    position: relative;
+    bottom: 1px;
 }
