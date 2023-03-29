@@ -1,5 +1,9 @@
 * {
-    background-color: rgb(255, 255, 255);
+    background-image:url(./fondo.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;
 }
 section {
     position: relative; /* le dice a un elemento que se mueva con respecto a otro elemento. (activa la opcion de top) mas abajo se explica) */
